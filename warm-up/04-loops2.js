@@ -50,6 +50,7 @@ console.log(countNegativeVlaues(numArray2)) //should return 8
  * write afunction that return the largest number in an array
  */
 
+
 function findLargetstNumber(arr) {
     let largest = arr[0];
     for (let i = 1; i < arr.length; i++) {
@@ -76,21 +77,4 @@ console.log(findLargetstNumber(arr2)); //9999999
 
 console.log(findSmallestNumber(arr2)) //20
 
-
-
-function removeDuplicates(arr) {
-  // your code here
-  let newArr = [];
-
-  let firstVal = arr[0];
-
-  for (let i = 1; i < arr.length; i++) {
-    if (arr[i] !== firstVal) {
-      newArr.push(firstVal);
-      firstVal = arr[i]
-    }
-  }
-
-  return newArr
-}
-console.log(removeDuplicates(["a", "b", "c", "c"]))
+console.log(findSmallestNumber([-20, -78, -90, -7000, -456, -9999999, -10000, -500, -1000])) //-9999999
