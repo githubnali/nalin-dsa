@@ -2,7 +2,7 @@
 //number : 100
 //string : "Nagaraju"
 //boolean: either true or false
-
+//
 //assigning value to an variable using const or let
 
 const name = "nagaraju";
