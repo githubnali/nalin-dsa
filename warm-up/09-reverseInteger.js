@@ -28,4 +28,4 @@ function reverse(n) {
 
 console.log(reverse(4321));
 console.log(reverse(-2345))
-console.log(reverse(1534236469))
+console.log(reverse(15342234))
